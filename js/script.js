@@ -5,6 +5,9 @@ let clock = () => {
     if(hours >= 12){
         hours = hours - 12;
         session = 'PM';
+        if(hours < 1){
+            hours = 12;
+        }
     }
     
     let minutes = date.getMinutes();
