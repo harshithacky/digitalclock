@@ -7,20 +7,18 @@
     font-family: 'Akaya Telivigala', cursive;
 }
 
-html{
-    font-size: 15px;
-}
-
-body{
+html,body{
     background: url('../images/morning.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
+    font-size: 15px;
 
 }
 
 .container{
     display: flex;
-    height: 100vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
