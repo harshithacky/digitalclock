@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background: url('../images/morning.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-box{
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+#date{
+    margin-top: 1rem;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+}
+
+.t-box{
+    background-color: rgba(244, 165, 96, 0.356);
+    padding: 0 1.2rem 1rem;
+    margin: 1rem 0.8rem;
+    border: 3px solid rgba(244, 165, 96, 0.356);
+    border-radius: 8px;
+    box-shadow: 3px 3px 9px rgba(244, 165, 96, 0.356), -3px -3px 9px rgba(244, 165, 96, 0.356);
+    width: 10%;
+}
+
+.t-box h1{
+    font-size: 3.2rem;
+}
+
+@media only screen and (max-width:1012px){
+    html{
+        font-size: 12px;
+    }
+    
+    .t-box{
+        width: 16%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    html{
+        font-size: 10px;
+    }
+
+    .t-box{
+        width: 19%;
+    }
+}
